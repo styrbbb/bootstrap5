@@ -6,18 +6,74 @@
     <title>Bootstrap h4</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <style>
+        .jumbo{
+            background-image: url("https://picsum.photos/id/222/1300/310");
+            color: #fff;
+            text-align: center;
+        }
+        
+      .card-img-top {
+        width: 100%;
+        height: 15vw;
+        object-fit: cover;
+    }
+
+    </style>
 </head>
 <body>
     <div class="container">
-        <div class="row">
-                <h1 class="display-1 text-white">Jumbotron</h1>
-                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit:</p>
-                <img src="pexels-elif-aksoy-11370147.jpg" class="img-fluid w-75" alt="">
-        </div>  
+        <div class="p-5 mb-4 bg-body-tertiary jumbo">
+            <div class="container-fluid py-5">
+                <h1 class="display-5 text-dark">Jumbotron</h1>
+                <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://picsum.photos/id/250/400/300" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Magna dolore uttt</h5>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ducimus at officiis cum, possimus neque. Illum eius dolorum quasi culpa, tenetur voluptas obcaecati natus vitae, expedita unde corporis porro voluptatem!</p>
+                    <i class="fa-solid fa-circle-info fa-2x"></i>
+                    <i class="fa-brands fa-twitter fa-2x"></i>
+                    <i class="fa-brands fa-facebook fa-2x"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://picsum.photos/id/322/400/300" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Sit ame</h5>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ducimus at officiis cum, possimus neque. Illum eius dolorum quasi culpa, tenetur voluptas obcaecati natus vitae, expedita unde corporis porro voluptatem!</p>
+                    <i class="fa-solid fa-circle-info fa-2x"></i>
+                    <i class="fa-brands fa-twitter fa-2x"></i>
+                    <i class="fa-brands fa-facebook fa-2x"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+               <div class="card">
+                <iframe height="300" src="https://www.youtube.com/embed/SqcY0GlETPk?si=cfNtlOlkHp4XOm_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="card-img-top"></iframe>
+            </div>     
+                <div class="card-body">
+                    <h5 class="card-title">embed video</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quisquam distinctio facere fugit quos asperiores assumenda facilis ratione recusandae molestiae placeat et provident, minus velit tenetur incidunt optio explicabo repudiandae.</p>
+                    <i class="fa-solid fa-circle-info fa-2x"></i>
+                    <i class="fa-brands fa-twitter fa-2x"></i>
+                    <i class="fa-brands fa-facebook fa-2x"></i>
+                </div>
+            </div>
+        </div>
     </div>
 
 
-   <!-- <script src="https://kit.fontawesome.com/56055df5c8.js" crossorigin="anonymous"></script> --> 
+   <script src="https://kit.fontawesome.com/56055df5c8.js" crossorigin="anonymous"></script> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
